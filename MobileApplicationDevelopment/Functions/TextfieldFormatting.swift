@@ -96,6 +96,7 @@ class TextfieldFormatting{
             textfield.layer.borderWidth = 2.5
             textfield.backgroundColor = UIColor(red:0.86, green:0.28, blue:0.28, alpha:0.6)
             
+            
         }, completion: {(success) in
             
             UIView.animate(withDuration: 1.5, delay: 1.5, animations: {() -> Void in
